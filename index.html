@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheese Master</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="webName">WELCOME TO THE CHEESE PALACE!</h1>
+
+    <!-- START STAGE 1 -->
+
+    <div id="stage1">
+        <!-- LEFT SIDE -->
+        <div class="form-control-vertical">
+
+            <div class="form-control-horizontal">
+                <label class="allText">Enter your name: </label>
+                <input id="inputUsername" class="allText" spellcheck="false" autocomplete="off">
+                <button id="submitUsername" class="allText">Submit</button>
+            </div>
+
+        </div>
+        <!-- LEFT SIDE -->
+        <!-- RIGHT SIDE -->
+        <div class="form-control-vertical">
+
+            <div id="second-step" class="form-control-horizontal">
+                <div id="catContainer">
+                    <image id="catImage" src="catDance.gif"></image>
+                    <image id="confetti" src="confetti.gif"></image>
+                </div>
+                <label id="helloMsg" class="allText">Hello (name)</label>
+            </div>
+
+        </div>
+        <!-- RIGHT SIDE -->
+    </div>
+
+    <!-- END STAGE 1 -->
+    <!-- START STAGE 2 -->
+
+    <div class="form-control-vertical" id="stage2">
+
+        <label class="allText">Adjust Cheese Amount</label>
+        <div id="sliderContainer" class="form-control-horizontal">
+            <input type="range" min="1" max="100" value="50" id="cheeseSlider">
+        </div>
+        <label id="cheeseValue" class="allText">50</label>
+        <image id="imgChooser" src="bakedRat.gif" title="lets play valo :)">
+
+    </div>
+    
+    <!-- END STAGE 2 -->
+
+    <script src="index.js"></script>
+</body>
+</html>
