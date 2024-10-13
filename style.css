@@ -69,6 +69,7 @@ body {
 }
 #stage2 {
     margin-top:15vw;
+    margin-bottom:15vw;
     min-width: 100vw;
     height: 15vw;
     visibility: hidden;
